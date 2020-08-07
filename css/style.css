@@ -898,10 +898,25 @@ ul{
 .more:checked ~ .content {
     transform: rotateY(180deg);
 }
-.active a{
+/* .active a{
     color: red;
     border-bottom: 2px solid red !important;
     padding-bottom: 14px;
+} */
+.active a{
+    /* color: red; */
+    /* border-bottom: 2px solid red !important; */
+    padding-bottom: 14px;
+}
+.active a:hover{
+	text-decoration: underline;
+	color: red;
+	border-bottom: 2px solid red !important;
+}
+a:hover{
+	text-decoration: underline;
+	color: red;
+	border-bottom: 2px solid red !important;
 }
 .front, .back {
     position: absolute;
